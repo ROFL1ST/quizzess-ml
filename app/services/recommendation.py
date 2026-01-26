@@ -1,40 +1,28 @@
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
-from typing import List, Optional
 import numpy as np
+from typing import List, Dict, Any
 from sklearn.linear_model import LogisticRegression
+from app.models import UserHistoryItem
 
-app = FastAPI(title="Adaptive Quiz ML Service", version="2.0.0")
-
-class UserHistoryItem(BaseModel):
-    question_id: int
-    is_correct: bool
-    difficulty: float # 0.0 to 1.0
-
-class RecommendationRequest(BaseModel):
-    user_id: int
-    quiz_id: int
-    history: List[UserHistoryItem]
-    prior_ability: Optional[float] = 0.5 # Default to medium if not provided
-
-class RecommendationResponse(BaseModel):
-    target_difficulty: float
-    predicted_ability: float
-    message: str
-    mode: str # "heuristic" or "ml_logistic"
-
-@app.get("/health")
-def health_check():
-    return {"status": "ok", "service": "ml-service"}
-
-@app.post("/recommend", response_model=RecommendationResponse)
-def recommend_difficulty(request: RecommendationRequest):
-    # Anchor / Prior
-    anchor_ability = request.prior_ability if request.prior_ability is not None else 0.5
+def calculate_heuristic(history: List[UserHistoryItem], anchor: float) -> float:
+    if not history:
+        return anchor
+        
+    # Simple Weighted Average with Pull
+    current = anchor
+    for item in history:
+        step = 0.05
+        if item.is_correct:
+            # If current diff was easy and we passed, jump up
+             current += step
+        else:
+             current -= step
     
+    return max(0.1, min(1.0, current))
+
+def predict_next_difficulty(history: List[UserHistoryItem], anchor_ability: float) -> Dict[str, Any]:
     # 1. COLD START / LOW DATA: Use Weighted Random Walk (Heuristic)
-    if not request.history or len(request.history) < 5:
-        target = calculate_heuristic(request.history, anchor_ability)
+    if not history or len(history) < 5:
+        target = calculate_heuristic(history, anchor_ability)
         return {
             "target_difficulty": round(target, 2),
             "predicted_ability": round(target, 2), # In heuristic, ability ~ current diff
@@ -45,12 +33,12 @@ def recommend_difficulty(request: RecommendationRequest):
     # 2. SUFFICIENT DATA: Use Scikit-Learn Logistic Regression
     try:
         # Prepare Data
-        X = np.array([[item.difficulty] for item in request.history])
-        y = np.array([1 if item.is_correct else 0 for item in request.history])
+        X = np.array([[item.difficulty] for item in history])
+        y = np.array([1 if item.is_correct else 0 for item in history])
         
         # Check if all one class (all correct or all wrong), regression will fail/warn
         if len(np.unique(y)) < 2:
-            target = calculate_heuristic(request.history, anchor_ability)
+            target = calculate_heuristic(history, anchor_ability)
             return {
                 "target_difficulty": round(target, 2),
                 "predicted_ability": round(target, 2),
@@ -76,7 +64,7 @@ def recommend_difficulty(request: RecommendationRequest):
         c = model.intercept_[0]
         
         if abs(m) < 0.001: # Avoid division by zero if flat slope
-            target_diff = calculate_heuristic(request.history, anchor_ability)
+            target_diff = calculate_heuristic(history, anchor_ability)
         else:
             # Inverse Logit
             target_diff = (np.log(P_target / (1 - P_target)) - c) / m
@@ -98,31 +86,10 @@ def recommend_difficulty(request: RecommendationRequest):
     except Exception as e:
         print(f"ML Error: {e}")
         # Fallback
-        target = calculate_heuristic(request.history, anchor_ability)
+        target = calculate_heuristic(history, anchor_ability)
         return {
             "target_difficulty": round(target, 2),
             "predicted_ability": round(target, 2),
             "message": "ML failed, falling back to heuristic",
             "mode": "fallback_error"
         }
-
-def calculate_heuristic(history: List[UserHistoryItem], anchor: float) -> float:
-    if not history:
-        return anchor
-        
-    # Simple Weighted Average with Pull
-    current = anchor
-    for item in history:
-        step = 0.05
-        if item.is_correct:
-            # If current diff was easy and we passed, jump up
-             current += step
-        else:
-             current -= step
-    
-    return max(0.1, min(1.0, current))
-
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5002)
