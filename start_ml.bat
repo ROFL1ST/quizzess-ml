@@ -1,5 +1,4 @@
 @echo off
 cd /d "%~dp0"
-call venv\Scripts\activate
-python main.py
+venv\Scripts\python.exe run.py
 pause
