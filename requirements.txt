@@ -3,3 +3,6 @@ uvicorn
 pandas
 scikit-learn
 numpy
+sentence-transformers
+torch
+transformers

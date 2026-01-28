@@ -1,6 +1,13 @@
 from fastapi import FastAPI
-from app.api.routes import router
+from app.routes import router as api_router
+from app.core.config import settings
+import logging
 
-app = FastAPI(title="Adaptive Quiz ML Service", version="2.0.0")
+# Setup Logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
-app.include_router(router)
+app = FastAPI(title=settings.PROJECT_NAME, version=settings.VERSION)
+
+# Include Routes
+app.include_router(api_router)
