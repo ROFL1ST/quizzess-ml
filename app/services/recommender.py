@@ -31,8 +31,9 @@ class RecommenderService:
 
         return {
             "user_id": data.user_id,
-            "current_ability": round(current_ability, 3),
-            "next_difficulty_target": round(target_difficulty, 3),
+            "predicted_ability": round(current_ability, 3),
+            "target_difficulty": round(target_difficulty, 3),
+            "message": "Adaptive logic v2",
             "version": "v2-logic"
         }
 
