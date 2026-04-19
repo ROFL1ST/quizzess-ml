@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Settings:
     PROJECT_NAME: str = "Adaptive Quiz ML Service"
@@ -7,5 +10,8 @@ class Settings:
     
     # Model Paths (Optional, for caching)
     SBERT_MODEL_NAME: str = 'all-MiniLM-L6-v2'
+
+    # Security
+    API_KEY: str = os.getenv("API_KEY", "default-secure-key")
 
 settings = Settings()
