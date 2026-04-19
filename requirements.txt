@@ -6,3 +6,4 @@ numpy
 sentence-transformers
 torch
 transformers
+python-dotenv
