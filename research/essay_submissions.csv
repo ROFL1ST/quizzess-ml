@@ -1,0 +1,137 @@
+"id","created_at","updated_at","deleted_at","history_id","question_id","user_answer","teacher_key","ai_score","ai_feedback","is_graded"
+"54","2026-04-19 05:54:50.481113+00","2026-04-19 05:54:50.481113+00",,"633","332","Proses yang melakukan pendauran ulang bahan bahan yang telah terpakai","Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.","54.2","Kurang tepat, perbaiki lagi konsepnya.","true"
+"55","2026-04-19 05:54:50.550686+00","2026-04-19 05:54:50.550686+00",,"633","333","P","Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.","12.1","Jawaban tidak relevan dengan kunci jawaban.","true"
+"56","2026-04-19 05:54:50.605914+00","2026-04-19 05:54:50.605914+00",,"633","335","P","Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.","17.25","Jawaban tidak relevan dengan kunci jawaban.","true"
+"57","2026-04-19 05:54:50.657892+00","2026-04-19 05:54:50.657892+00",,"633","336","D","Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.","15.18","Jawaban tidak relevan dengan kunci jawaban.","true"
+"58","2026-04-19 05:54:50.709943+00","2026-04-19 05:54:50.709943+00",,"633","327","P","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.","16.53","Jawaban tidak relevan dengan kunci jawaban.","true"
+"59","2026-04-19 05:54:50.762071+00","2026-04-19 05:54:50.762071+00",,"633","328","Papapa","Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.","21.92","Jawaban tidak relevan dengan kunci jawaban.","true"
+"60","2026-04-19 05:54:50.814281+00","2026-04-19 05:54:50.814281+00",,"633","329","Organik tuh dari bahan organik, dan juga sebalik nya","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.","56.55","Kurang tepat, perbaiki lagi konsepnya.","true"
+"61","2026-04-19 05:54:50.865933+00","2026-04-19 05:54:50.865933+00",,"633","334","Pppp","Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.","5.08","Jawaban tidak relevan dengan kunci jawaban.","true"
+"62","2026-04-19 05:54:50.918747+00","2026-04-19 05:54:50.918747+00",,"633","330","P","Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.","11.66","Jawaban tidak relevan dengan kunci jawaban.","true"
+"63","2026-04-19 05:54:50.970465+00","2026-04-19 05:54:50.970465+00",,"633","331","Psoqa","Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.","10.38","Jawaban tidak relevan dengan kunci jawaban.","true"
+"64","2026-04-19 06:19:57.460665+00","2026-04-19 06:19:57.460665+00",,"634","328","Reboisasi sangat efektif mengurangi dampak perubahan iklim karena pohon bertindak sebagai penyerap karbon alami (carbon sink) yang menyerap 
+ (gas rumah kaca utama) melalui fotosintesis","Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.","65.42","Kurang tepat, perbaiki lagi konsepnya.","true"
+"65","2026-04-19 06:19:57.52495+00","2026-04-19 06:19:57.52495+00",,"634","329","sampah organik dapat terurai dengan pembusukan sedangkan Anorganik terurai dengan waktu yang sangat lama dan proses yang panjang","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.","67.34","Kurang tepat, perbaiki lagi konsepnya.","true"
+"66","2026-04-19 06:19:57.573243+00","2026-04-19 06:19:57.573243+00",,"634","331","karena penggunaan kantong belanja kain yang dapat di pakai berulang kali yang dapat mengurangi penggunaan plastik","Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.","72.16","Kurang tepat, perbaiki lagi konsepnya.","true"
+"67","2026-04-19 06:19:57.62141+00","2026-04-19 06:19:57.62141+00",,"634","334","terjadinya pemasan global dan mencairnya es di kutub ","Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.","31.22","Jawaban tidak relevan dengan kunci jawaban.","true"
+"68","2026-04-19 06:19:57.66973+00","2026-04-19 06:19:57.66973+00",,"634","327","peningkatan suhu rata-rata atmosfer, laut, dan daratan Bumi secara bertahap, terutama akibat aktivitas manusia seperti pembakaran bahan bakar fosil dan deforestasi yang meningkatkan gas rumah kaca","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.","61.27","Kurang tepat, perbaiki lagi konsepnya.","true"
+"69","2026-04-19 06:19:57.718074+00","2026-04-19 06:19:57.718074+00",,"634","330","terjadinya penyumbaatan air dan kemungkinan  terjadiny banjir","Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.","70.64","Kurang tepat, perbaiki lagi konsepnya.","true"
+"70","2026-04-19 06:19:57.767366+00","2026-04-19 06:19:57.767366+00",,"634","332","serangkaian tahapan mengubah sampah menjadi bahan baku baru untuk mengurangi limbah dan menghemat energi.","Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.","60.54","Kurang tepat, perbaiki lagi konsepnya.","true"
+"71","2026-04-19 06:19:57.815909+00","2026-04-19 06:19:57.815909+00",,"634","333","menyalakan barang elektronik sedangkan sedang tidak di gunakan, cara mengatasinya matikan listrik jika tidak di gunakan","Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.","65.07","Kurang tepat, perbaiki lagi konsepnya.","true"
+"72","2026-04-19 06:19:57.864593+00","2026-04-19 06:19:57.864593+00",,"634","335","menggunakan Air secukupnya","Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.","61.06","Kurang tepat, perbaiki lagi konsepnya.","true"
+"73","2026-04-19 06:19:57.912768+00","2026-04-19 06:19:57.912768+00",,"634","336","dari karbon yang mereka keluarkan","Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.","53.14","Kurang tepat, perbaiki lagi konsepnya.","true"
+"74","2026-04-19 07:20:50.348042+00","2026-04-19 07:20:50.348042+00",,"635","328","Penanaman pohon (reboisasi) dinilai efektif dalam mengurangi dampak perubahan iklim karena pohon memiliki peran penting dalam menyerap karbon dioksida (CO₂) — gas rumah kaca utama penyebab pemanasan global — melalui proses fotosintesis.
+
+Berikut alasan utamanya:
+Penyerapan Karbon (Carbon Sequestration)
+Pohon menyerap CO₂ dari atmosfer dan menyimpannya dalam bentuk biomassa (batang, daun, akar) serta di dalam tanah. Satu pohon dewasa bisa menyerap sekitar 10–22 kg CO₂ per tahun.
+
+Pengurangan Efek Rumah Kaca
+Dengan mengurangi konsentrasi CO₂ di atmosfer, pohon membantu memperlambat pemanasan global dan menstabilkan iklim.
+
+Pelestarian Ekosistem & Biodiversitas
+Hutan yang ditanam kembali menjadi habitat bagi berbagai spesies, menjaga keseimbangan ekosistem yang juga berkontribusi pada regulasi iklim lokal.
+
+Pengaturan Suhu dan Kelembapan
+Pohon memberikan naungan, mengurangi suhu permukaan tanah, dan melepaskan uap air melalui transpirasi — membantu mendinginkan lingkungan sekitar.
+
+Pencegahan Erosi & Penyimpanan Air
+Akar pohon menahan tanah dari erosi, meningkatkan kapasitas tanah menyerap air, dan mencegah banjir — yang semakin sering terjadi akibat perubahan iklim.","Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.","56.77","Kurang tepat, perbaiki lagi konsepnya.","true"
+"75","2026-04-19 07:20:50.44763+00","2026-04-19 07:20:50.44763+00",,"635","329","Sampah Organik
+Asal: Berasal dari bahan alami yang bisa terurai secara alami oleh mikroorganisme (misalnya: sisa makanan, daun, kulit buah, kotoran hewan).
+Sifat: Mudah terurai (biodegradable), memiliki kandungan air tinggi, dan bisa dijadikan kompos.
+Contoh: Nasi sisa, kulit pisang, daun jatuh, kopi bekas, kayu, jerami.
+Dampak Lingkungan: Jika dikelola baik, bisa jadi pupuk. Jika dibiarkan membusuk di tempat terbuka, bisa mengeluarkan gas metana (CH₄) — gas rumah kaca yang kuat.
+Pengelolaan: Idealnya diolah menjadi kompos atau biogas.
+
+Sampah Anorganik
+Asal: Bahan buatan manusia yang tidak mudah terurai secara alami (misalnya: plastik, logam, kaca, karet, elektronik).
+Sifat: Tahan lama, tidak terurai dalam waktu singkat, seringkali mencemari lingkungan jika tidak didaur ulang.
+Contoh: Botol plastik, kaleng minuman, kabel listrik, ban bekas, kemasan styrofoam.
+Dampak Lingkungan: Bisa menumpuk di TPA, mencemari laut (microplastic), dan meracuni ekosistem.
+Pengelolaan: Harus didaur ulang atau diolah secara aman agar tidak mencemari lingkungan.","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.","52.05","Kurang tepat, perbaiki lagi konsepnya.","true"
+"76","2026-04-19 07:20:50.504756+00","2026-04-19 07:20:50.504756+00",,"635","335","Matikan keran saat menyikat gigi atau mencuci piring.","Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.","76.02","Bagus, namun ada sedikit perbedaan istilah.","true"
+"77","2026-04-19 07:20:50.559282+00","2026-04-19 07:20:50.559282+00",,"635","336","Kendaraan fosil adalah sumber utama polusi udara di perkotaan karena mereka secara konstan melepaskan zat beracun ke udara — memengaruhi kesehatan manusia, lingkungan, dan iklim.","Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.","56.75","Kurang tepat, perbaiki lagi konsepnya.","true"
+"78","2026-04-19 07:20:50.613643+00","2026-04-19 07:20:50.613643+00",,"635","330","Pencemaran air dan ekosistem perairan — yang berujung pada kerusakan rantai makanan, ancaman terhadap satwa liar, serta bahaya bagi kesehatan manusia.","Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.","70.2","Kurang tepat, perbaiki lagi konsepnya.","true"
+"79","2026-04-19 07:20:50.668254+00","2026-04-19 07:20:50.668254+00",,"635","331","Penggunaan kantong belanja kain lebih disarankan daripada kantong plastik sekali pakai karena alasan lingkungan, ekonomi, dan kesehatan jangka panjang. Berikut penjelasannya:
+
+1. Ramah Lingkungan & Berkelanjutan
+Kantong kain (biasanya dari katun, jute, atau serat alami) bisa digunakan berulang kali — bahkan ratusan kali — sehingga mengurangi jumlah sampah.
+Kantong plastik sekali pakai hanya digunakan 1–2 kali lalu dibuang → menumpuk di TPA, selokan, atau laut, dan butuh ratusan tahun untuk terurai.
+Fakta: 1 kantong plastik butuh 450–1000 tahun untuk terurai. Sementara kantong kain bisa terurai dalam hitungan bulan jika dibuat dari bahan alami.
+
+2. Mengurangi Polusi Plastik & Ancaman bagi Satwa
+Plastik yang dibuang ke sungai atau laut sering ditelan hewan laut → menyebabkan cedera atau kematian.
+Kantong kain tidak mencemari ekosistem laut dan tidak berubah jadi mikroplastik.
+
+3. Lebih Hemat dalam Jangka Panjang
+Meski harganya lebih mahal di awal, kantong kain bisa dipakai bertahun-tahun → hemat biaya dibanding membeli plastik setiap belanja.
+Banyak toko sekarang memberi diskon atau insentif bagi yang bawa kantong sendiri.
+
+4. Lebih Kuat & Fungsional
+Kantong kain lebih tebal dan kuat → bisa membawa beban lebih berat.
+Bisa dilipat, gampang dibawa, dan cocok untuk berbagai keperluan (belanja, piknik, tas sekolah, dll).","Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.","63.43","Kurang tepat, perbaiki lagi konsepnya.","true"
+"80","2026-04-19 07:20:50.723159+00","2026-04-19 07:20:50.723159+00",,"635","332","Proses daur ulang (recycle) adalah kegiatan mengolah kembali bahan bekas atau sampah yang masih memiliki nilai guna menjadi produk baru, sehingga mengurangi kebutuhan bahan baku mentah dan meminimalkan jumlah sampah yang dibuang ke tempat pembuangan akhir (TPA).","Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.","69.03","Kurang tepat, perbaiki lagi konsepnya.","true"
+"81","2026-04-19 07:20:50.777529+00","2026-04-19 07:20:50.777529+00",,"635","333","Meninggalkan TV atau AC menyala saat tidak digunakan — bahkan saat rumah kosong atau saat tidur.
+
+","Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.","70.88","Kurang tepat, perbaiki lagi konsepnya.","true"
+"82","2026-04-19 07:20:50.831977+00","2026-04-19 07:20:50.831977+00",,"635","334","Jika lapisan ozon terus menipis, dampaknya sangat serius bagi Bumi, terutama karena ozon berperan sebagai pelindung alami dari radiasi ultraviolet (UV) berbahaya dari matahari.
+
+Akibat Utama Menipisnya Lapisan Ozon:
+1. Peningkatan Radiasi UV-B ke Permukaan Bumi
+Radiasi UV-B yang masuk lebih banyak bisa merusak DNA makhluk hidup.
+Meningkatkan risiko kanker kulit (melanoma), katarak, dan gangguan sistem imun pada manusia.
+Pada anak-anak dan kulit sensitif, risiko lebih tinggi.
+2. Kerusakan Ekosistem Laut
+Plankton (dasar rantai makanan laut) sangat sensitif terhadap UV — menipisnya ozon bisa mengurangi populasi plankton → mengganggu seluruh ekosistem laut.
+Ikan, karang, dan hewan laut lain juga terkena dampak langsung.
+3. Gangguan Pertumbuhan Tumbuhan
+Tumbuhan (termasuk tanaman pangan) bisa mengalami penurunan fotosintesis, pertumbuhan terhambat, dan hasil panen berkurang.
+Contoh: padi, kedelai, dan sayuran bisa rusak akibat paparan UV berlebih.
+4. Peningkatan Suhu Global (Tidak Langsung)
+Meski ozon bukan gas rumah kaca utama, penipisannya bisa mengubah pola atmosfer → memengaruhi iklim secara tidak langsung.
+Juga mempercepat pemanasan di wilayah kutub karena es lebih cepat mencair akibat radiasi UV.
+5. Kerusakan Material
+Plastik, karet, dan cat bisa lebih cepat rusak karena paparan UV tinggi — mengurangi masa pakai barang-barang sehari-hari.
+","Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.","63.54","Kurang tepat, perbaiki lagi konsepnya.","true"
+"83","2026-04-19 07:20:50.887389+00","2026-04-19 07:20:50.887389+00",,"635","327","Pemanasan global adalah meningkatnya suhu rata-rata permukaan Bumi secara bertahap dalam jangka panjang, akibat meningkatnya konsentrasi gas rumah kaca di atmosfer.","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.","68.48","Kurang tepat, perbaiki lagi konsepnya.","true"
+"84","2026-04-19 10:23:46.581699+00","2026-04-19 10:23:46.581699+00",,"637","330","banjir
+","Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.","26.43","Jawaban tidak relevan dengan kunci jawaban.","true"
+"85","2026-04-19 10:23:46.660563+00","2026-04-19 10:23:46.660563+00",,"637","333","menyalakan AC 24jam, cara mengatasinya gunakan ac seperlunya saja ","Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.","62.73","Kurang tepat, perbaiki lagi konsepnya.","true"
+"86","2026-04-19 10:23:46.713756+00","2026-04-19 10:23:46.713756+00",,"637","334","bumi akan memanas","Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.","22.22","Jawaban tidak relevan dengan kunci jawaban.","true"
+"87","2026-04-19 10:23:46.766588+00","2026-04-19 10:23:46.766588+00",,"637","336","Kendaraan berbahan bakar fosil dianggap penyumbang polusi udara utama karena proses pembakaran bensin atau solar menghasilkan berbagai zat berbahaya seperti karbon monoksida (CO), karbon dioksida (CO₂), nitrogen oksida (NOx), dan partikel halus yang mencemari udara, berkontribusi pada pemanasan global, serta berdampak buruk bagi kesehatan manusia terutama sistem pernapasan.","Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.","63.1","Kurang tepat, perbaiki lagi konsepnya.","true"
+"88","2026-04-19 10:23:46.821963+00","2026-04-19 10:23:46.821963+00",,"637","327","pemanasan global adalah pemanasan bumi yg di lakukan manusia","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.","55.41","Kurang tepat, perbaiki lagi konsepnya.","true"
+"89","2026-04-19 10:23:46.874632+00","2026-04-19 10:23:46.874632+00",,"637","328","karna jika adanya pohon bumi akan kembali sehat
+","Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.","43.39","Jawaban tidak relevan dengan kunci jawaban.","true"
+"90","2026-04-19 10:23:46.927603+00","2026-04-19 10:23:46.927603+00",,"637","329","Sampah organik adalah sampah yang berasal dari makhluk hidup seperti sisa makanan atau daun dan mudah terurai secara alami, sedangkan sampah anorganik berasal dari bahan non-hayati atau hasil industri seperti plastik dan kaca yang sulit terurai dan membutuhkan waktu sangat lama untuk hancur.","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.","72.46","Kurang tepat, perbaiki lagi konsepnya.","true"
+"91","2026-04-19 10:23:46.980685+00","2026-04-19 10:23:46.980685+00",,"637","331","karna kalau plastik akan menimbulkan sampah yg berlebih ","Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.","62.86","Kurang tepat, perbaiki lagi konsepnya.","true"
+"92","2026-04-19 10:23:47.033596+00","2026-04-19 10:23:47.033596+00",,"637","332","daur ulang adalah suatu proses yg mana suatu benda yg sudah tidak terpakai bisa di olah lagi menjadi benda yg bermanfaat ","Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.","49.83","Jawaban tidak relevan dengan kunci jawaban.","true"
+"93","2026-04-19 10:23:47.086462+00","2026-04-19 10:23:47.086462+00",,"637","335","membuat mesin saring dri air kotor menjadi air bersih","Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.","67.31","Kurang tepat, perbaiki lagi konsepnya.","true"
+"94","2026-04-19 12:52:11.414162+00","2026-04-19 12:52:11.414162+00",,"638","334","dampaknya adalah kenaikan suhu bumi yang dapat mengakibatkan melelehnya es dan menaikkan ketinggian permukaan air laut
+","Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.","37.81","Jawaban tidak relevan dengan kunci jawaban.","true"
+"95","2026-04-19 12:52:11.490485+00","2026-04-19 12:52:11.490485+00",,"638","335","mematikan keran air ketika sudah tidak digunakan
+","Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.","76.05","Bagus, namun ada sedikit perbedaan istilah.","true"
+"96","2026-04-19 12:52:11.540562+00","2026-04-19 12:52:11.540562+00",,"638","336","karena proses pembakaran mesin melepaskan emisi gas beracun secara masif, seperti karbon monoksida (CO), nitrogen oksida (
+), dan partikulat (PM2.5/PM10). Emisi ini memicu pemanasan global, kabut asap, serta dampak kesehatan","Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.","67.27","Kurang tepat, perbaiki lagi konsepnya.","true"
+"97","2026-04-19 12:52:11.590566+00","2026-04-19 12:52:11.590566+00",,"638","327","fenomena peningkatan suhu rata-rata atmosfer, lautan, dan daratan Bumi secara bertahap dan signifikan dalam jangka panjang","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.","82.89","Bagus, namun ada sedikit perbedaan istilah.","true"
+"98","2026-04-19 12:52:11.641305+00","2026-04-19 12:52:11.641305+00",,"638","328","Penanaman pohon (reboisasi) dinilai sebagai salah satu solusi paling efektif untuk mengatasi perubahan iklim karena pohon bekerja sebagai ""penyerap karbon alami"" yang krusial. 
+Berikut adalah alasan utama mengapa reboisasi sangat efektif:
+1. Penyerapan Karbon Dioksida (Sekuestrasi Karbon) 
+Pohon menyerap karbon dioksida (
+) dari atmosfer melalui proses fotosintesis. Karbon tersebut kemudian disimpan dalam bentuk biomassa (kayu, akar, dan daun) selama masa hidup pohon. Dengan mengurangi konsentrasi 
+ di atmosfer, pohon membantu menahan laju pemanasan global. 
+2. Efek Pendinginan (Evapotranspirasi) 
+Pohon tidak hanya menyerap gas rumah kaca, tetapi juga mendinginkan suhu lingkungan secara langsung. Melalui proses evapotranspirasi, pohon melepaskan uap air ke udara yang membantu menurunkan suhu permukaan bumi di sekitarnya. Ini sangat efektif untuk mengurangi efek ""pulau panas"" (urban heat island) di perkotaan. 
+3. Mitigasi Bencana Alam
+Perubahan iklim membawa cuaca ekstrem. Reboisasi membantu memitigasi dampaknya: 
+Pencegahan Banjir: Akar pohon meningkatkan daya serap tanah, sehingga mengurangi limpasan air permukaan.
+Pencegahan Longsor: Akar pohon mengikat struktur tanah di lereng-lereng curam. 
+4. Pelestarian Keanekaragaman Hayati
+Hutan yang ditanam kembali menyediakan habitat bagi berbagai spesies flora dan fauna. Ekosistem yang sehat dan beragam memiliki ketahanan (resiliensi) yang lebih baik terhadap perubahan iklim dibandingkan ekosistem yang rusak. 
+5. Siklus Hidrologi yang Lebih Baik 
+Hutan berperan penting dalam menjaga siklus air. Penanaman pohon membantu mengisi kembali cadangan air tanah dan menjaga ketersediaan air bersih, yang sering kali terancam oleh kekeringan akibat perubahan iklim. ","Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.","58.45","Kurang tepat, perbaiki lagi konsepnya.","true"
+"99","2026-04-19 12:52:11.691257+00","2026-04-19 12:52:11.691257+00",,"638","331","Penggunaan kantong belanja kain lebih disarankan karena dapat digunakan kembali secara berulang, kuat, dan tahan lama, yang secara signifikan mengurangi tumpukan sampah plastik sekali pakai. Kantong kain membantu menurunkan emisi karbon, mencegah pencemaran lingkungan, dan mengurangi dampak buruk limbah plastik yang sulit terurai terhadap ekosistem darat maupun","Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.","68.88","Kurang tepat, perbaiki lagi konsepnya.","true"
+"100","2026-04-19 12:52:11.741125+00","2026-04-19 12:52:11.741125+00",,"638","332","proses daur ulang adalah proses mengolah kembali sampah, baik itu organik dan anorganik, untuk digunakan kembali menjadi barang yang berguna","Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.","71.36","Kurang tepat, perbaiki lagi konsepnya.","true"
+"101","2026-04-19 12:52:11.791245+00","2026-04-19 12:52:11.791245+00",,"638","329","Sampah organik adalah sampah yang berasal dari bahan-bahan alami yang dapat terurai oleh proses biologis, seperti sisa makanan, daun kering, dan kulit buah. Sementara itu, sampah anorganik adalah sampah yang berasal dari bahan-bahan non-alami dan tidak mudah terurai, seperti plastik, kaca, dan logam.","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.","66.8","Kurang tepat, perbaiki lagi konsepnya.","true"
+"102","2026-04-19 12:52:11.840812+00","2026-04-19 12:52:11.840812+00",,"638","330","tersumbatnya aliran dan berakhir banjir","Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.","53.68","Kurang tepat, perbaiki lagi konsepnya.","true"
+"103","2026-04-19 12:52:11.890864+00","2026-04-19 12:52:11.890864+00",,"638","333","Salah satu aktivitas rumah tangga yang paling sering memboroskan energi listrik adalah penggunaan AC (Air Conditioner) dengan suhu yang terlalu rendah di ruangan yang tidak tertutup rapat. cara mengatasinya adalah Pastikan pintu dan jendela tertutup rapat saat AC menyala agar tidak ada kebocoran udara dingin.","Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.","56.41","Kurang tepat, perbaiki lagi konsepnya.","true"

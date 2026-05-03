@@ -1,0 +1,27 @@
+﻿id,question_id,user_answer,teacher_key,ai_score_original,score_tfidf,score_sbert,score_multilingual,score_indobert
+94,334,dampaknya adalah kenaikan suhu bumi yang dapat mengakibatkan melelehnya es dan menaikkan ketinggian permukaan air laut,"Sinar ultraviolet (UV) masuk ke bumi tanpa filter, memicu kanker kulit, katarak, dan kerusakan ekosistem.",37.81,6.98,37.81,33.26,52.67
+95,335,mematikan keran air ketika sudah tidak digunakan,"Mematikan keran air saat menyabuni tangan atau menyikat gigi, serta memperbaiki kebocoran pipa.",76.05,19.05,76.05,52.81,69.17
+96,336,"karena proses pembakaran mesin melepaskan emisi gas beracun secara masif, seperti karbon monoksida (CO), nitrogen oksida (
+), dan partikulat (PM2.5/PM10). Emisi ini memicu pemanasan global, kabut asap, serta dampak kesehatan",Pembakaran bahan bakar fosil melepaskan gas berbahaya seperti karbon monoksida dan karbon dioksida ke atmosfer.,67.27,21.83,67.27,84.41,73.29
+97,327,"fenomena peningkatan suhu rata-rata atmosfer, lautan, dan daratan Bumi secara bertahap dan signifikan dalam jangka panjang","Peningkatan suhu rata-rata atmosfer, laut, dan daratan bumi secara global.",82.89,58.83,82.89,90.57,91.01
+98,328,"Penanaman pohon (reboisasi) dinilai sebagai salah satu solusi paling efektif untuk mengatasi perubahan iklim karena pohon bekerja sebagai ""penyerap karbon alami"" yang krusial. 
+Berikut adalah alasan utama mengapa reboisasi sangat efektif:
+1. Penyerapan Karbon Dioksida (Sekuestrasi Karbon) 
+Pohon menyerap karbon dioksida (
+) dari atmosfer melalui proses fotosintesis. Karbon tersebut kemudian disimpan dalam bentuk biomassa (kayu, akar, dan daun) selama masa hidup pohon. Dengan mengurangi konsentrasi 
+ di atmosfer, pohon membantu menahan laju pemanasan global. 
+2. Efek Pendinginan (Evapotranspirasi) 
+Pohon tidak hanya menyerap gas rumah kaca, tetapi juga mendinginkan suhu lingkungan secara langsung. Melalui proses evapotranspirasi, pohon melepaskan uap air ke udara yang membantu menurunkan suhu permukaan bumi di sekitarnya. Ini sangat efektif untuk mengurangi efek ""pulau panas"" (urban heat island) di perkotaan. 
+3. Mitigasi Bencana Alam
+Perubahan iklim membawa cuaca ekstrem. Reboisasi membantu memitigasi dampaknya: 
+Pencegahan Banjir: Akar pohon meningkatkan daya serap tanah, sehingga mengurangi limpasan air permukaan.
+Pencegahan Longsor: Akar pohon mengikat struktur tanah di lereng-lereng curam. 
+4. Pelestarian Keanekaragaman Hayati
+Hutan yang ditanam kembali menyediakan habitat bagi berbagai spesies flora dan fauna. Ekosistem yang sehat dan beragam memiliki ketahanan (resiliensi) yang lebih baik terhadap perubahan iklim dibandingkan ekosistem yang rusak. 
+5. Siklus Hidrologi yang Lebih Baik 
+Hutan berperan penting dalam menjaga siklus air. Penanaman pohon membantu mengisi kembali cadangan air tanah dan menjaga ketersediaan air bersih, yang sering kali terancam oleh kekeringan akibat perubahan iklim.",Pohon menyerap karbon dioksida (CO2) dan menghasilkan oksigen (O2) melalui proses fotosintesis.,58.45,23.17,58.45,62.18,61.88
+99,331,"Penggunaan kantong belanja kain lebih disarankan karena dapat digunakan kembali secara berulang, kuat, dan tahan lama, yang secara signifikan mengurangi tumpukan sampah plastik sekali pakai. Kantong kain membantu menurunkan emisi karbon, mencegah pencemaran lingkungan, dan mengurangi dampak buruk limbah plastik yang sulit terurai terhadap ekosistem darat maupun",Kantong kain dapat digunakan berulang kali (reusable) sehingga mengurangi timbulan limbah plastik sekali pakai.,68.88,33.25,68.88,88.2,73.57
+100,332,"proses daur ulang adalah proses mengolah kembali sampah, baik itu organik dan anorganik, untuk digunakan kembali menjadi barang yang berguna",Proses mengolah kembali barang bekas atau limbah menjadi produk baru yang memiliki nilai guna.,71.36,28.67,71.36,79.84,80.45
+101,329,"Sampah organik adalah sampah yang berasal dari bahan-bahan alami yang dapat terurai oleh proses biologis, seperti sisa makanan, daun kering, dan kulit buah. Sementara itu, sampah anorganik adalah sampah yang berasal dari bahan-bahan non-alami dan tidak mudah terurai, seperti plastik, kaca, dan logam.","Sampah organik mudah terurai secara alami, sedangkan sampah anorganik sulit atau tidak dapat terurai secara alami.",66.8,30.15,66.8,83.57,79.07
+102,330,tersumbatnya aliran dan berakhir banjir,Menyumbat aliran air yang menyebabkan banjir serta mencemari ekosistem dan biota air.,53.68,22.88,53.68,68.18,65.62
+103,333,Salah satu aktivitas rumah tangga yang paling sering memboroskan energi listrik adalah penggunaan AC (Air Conditioner) dengan suhu yang terlalu rendah di ruangan yang tidak tertutup rapat. cara mengatasinya adalah Pastikan pintu dan jendela tertutup rapat saat AC menyala agar tidak ada kebocoran udara dingin.,Membiarkan lampu atau alat elektronik menyala saat tidak digunakan; solusinya adalah mematikannya setelah dipakai.,56.41,11.7,56.41,56.14,67.58

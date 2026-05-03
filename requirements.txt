@@ -7,3 +7,8 @@ sentence-transformers
 torch
 transformers
 python-dotenv
+keybert
+unloth
+peft
+accelerate
+bitsandbytes
