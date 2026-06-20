@@ -1,18 +1,23 @@
 FROM python:3.11-slim
 
-ENV PYTHONUNBUFFERED True
-ENV APP_HOME /app
-ENV PORT 8080
+ENV PYTHONUNBUFFERED=1
+ENV APP_HOME=/app
+ENV PORT=7860
+ENV HF_HOME=/app/.cache/huggingface
+
 WORKDIR $APP_HOME
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2'); \
-    from transformers import AutoTokenizer, AutoModel; \
-    m='indobenchmark/indobert-base-p1'; \
-    AutoTokenizer.from_pretrained(m); AutoModel.from_pretrained(m)"
-
 COPY . .
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080", "--workers", "1"]
+# Model will be downloaded at runtime from HuggingFace Hub
+# rofl1st/llama-3.1-8b-essay-grader
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "7860", "--workers", "1"]

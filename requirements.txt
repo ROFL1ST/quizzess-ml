@@ -8,8 +8,3 @@ transformers
 accelerate
 bitsandbytes
 python-dotenv
-keybert
-unloth
-peft
-accelerate
-bitsandbytes
