@@ -7,4 +7,5 @@ torch
 transformers
 accelerate
 bitsandbytes
+peft
 python-dotenv
