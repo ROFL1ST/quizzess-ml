@@ -3,7 +3,8 @@ uvicorn
 pandas
 scikit-learn
 numpy
-sentence-transformers
 torch
 transformers
+accelerate
+bitsandbytes
 python-dotenv
