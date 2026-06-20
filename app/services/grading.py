@@ -1,7 +1,7 @@
 import json
 import logging
 import re
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
 
 from app.core.config import settings
@@ -32,33 +32,43 @@ class GradingService:
 
     def _load_model(self):
         try:
-            logger.info(f"⏳ Loading fine-tuned LLaMA from {settings.LLAMA_MODEL_ID}...")
+            logger.info(f"Loading fine-tuned LLaMA from {settings.LLAMA_MODEL_ID}...")
+
             self.tokenizer = AutoTokenizer.from_pretrained(
                 settings.LLAMA_MODEL_ID,
                 token=settings.HF_TOKEN or None
             )
+
+            # 4-bit quantization config — reduces memory from ~16GB to ~6GB
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_use_double_quant=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16
+            )
+
+            use_gpu = torch.cuda.is_available()
+
             self.model = AutoModelForCausalLM.from_pretrained(
                 settings.LLAMA_MODEL_ID,
-                torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-                device_map="auto" if torch.cuda.is_available() else "cpu",
+                quantization_config=bnb_config if use_gpu else None,
+                torch_dtype=torch.float16 if use_gpu else torch.float32,
+                device_map="auto" if use_gpu else "cpu",
                 token=settings.HF_TOKEN or None
             )
             self.model.eval()
-            logger.info("✅ Fine-tuned LLaMA loaded successfully.")
+            logger.info("Fine-tuned LLaMA loaded successfully (4-bit quantized).")
         except Exception as e:
-            logger.error(f"❌ Failed to load LLaMA model: {e}")
+            logger.error(f"Failed to load LLaMA model: {e}")
             self.tokenizer = None
             self.model = None
 
     def _parse_response(self, raw: str) -> dict:
-        """Extract JSON from model output."""
-        # Strip markdown code fences if present
         if "```" in raw:
             raw = raw.split("```")[1]
         if raw.startswith("json"):
             raw = raw[4:]
         raw = raw.strip()
-        # Extract first JSON object
         match = re.search(r'\{.*?\}', raw, re.DOTALL)
         if match:
             raw = match.group(0)
@@ -91,7 +101,6 @@ class GradingService:
                     do_sample=False,
                     pad_token_id=self.tokenizer.eos_token_id,
                 )
-            # Decode only the newly generated tokens
             input_len = inputs["input_ids"].shape[1]
             generated = self.tokenizer.decode(
                 outputs[0][input_len:], skip_special_tokens=True
