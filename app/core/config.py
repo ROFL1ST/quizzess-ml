@@ -8,13 +8,13 @@ class Settings:
     VERSION: str = "3.1.0"
     API_V1_STR: str = "/api/v1"
 
-    # Base LLaMA model (from Meta via HuggingFace)
-    LLAMA_BASE_MODEL_ID: str = os.getenv("LLAMA_BASE_MODEL_ID", "meta-llama/Llama-3.1-8B-Instruct")
+    # Base LLaMA model — using unsloth mirror (no gating required)
+    LLAMA_BASE_MODEL_ID: str = os.getenv("LLAMA_BASE_MODEL_ID", "unsloth/Meta-Llama-3.1-8B-Instruct")
 
     # LoRA adapter (fine-tuned)
     LLAMA_MODEL_ID: str = os.getenv("LLAMA_MODEL_ID", "rofl1st/llama-3.1-8b-essay-grader")
 
-    # HuggingFace token (required for gated base model)
+    # HuggingFace token (optional, only needed if model is private)
     HF_TOKEN: str = os.getenv("HF_TOKEN", "")
 
     # Inference config
