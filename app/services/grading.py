@@ -2,6 +2,7 @@ import json
 import logging
 import re
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
+from peft import PeftModel
 import torch
 
 from app.core.config import settings
@@ -32,32 +33,40 @@ class GradingService:
 
     def _load_model(self):
         try:
-            logger.info(f"Loading fine-tuned LLaMA from {settings.LLAMA_MODEL_ID}...")
+            base_id = settings.LLAMA_BASE_MODEL_ID
+            adapter_id = settings.LLAMA_MODEL_ID
+            token = settings.HF_TOKEN or None
+            use_gpu = torch.cuda.is_available()
 
-            self.tokenizer = AutoTokenizer.from_pretrained(
-                settings.LLAMA_MODEL_ID,
-                token=settings.HF_TOKEN or None
-            )
+            logger.info(f"Loading tokenizer from base model: {base_id}")
+            self.tokenizer = AutoTokenizer.from_pretrained(base_id, token=token)
 
-            # 4-bit quantization config — reduces memory from ~16GB to ~6GB
+            # 4-bit quantization — reduces VRAM from ~16GB to ~6GB (GPU only)
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_use_double_quant=True,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_compute_dtype=torch.float16
-            )
+            ) if use_gpu else None
 
-            use_gpu = torch.cuda.is_available()
-
-            self.model = AutoModelForCausalLM.from_pretrained(
-                settings.LLAMA_MODEL_ID,
-                quantization_config=bnb_config if use_gpu else None,
+            logger.info(f"Loading base model: {base_id}")
+            base_model = AutoModelForCausalLM.from_pretrained(
+                base_id,
+                quantization_config=bnb_config,
                 torch_dtype=torch.float16 if use_gpu else torch.float32,
                 device_map="auto" if use_gpu else "cpu",
-                token=settings.HF_TOKEN or None
+                token=token
+            )
+
+            logger.info(f"Applying LoRA adapter: {adapter_id}")
+            self.model = PeftModel.from_pretrained(
+                base_model,
+                adapter_id,
+                token=token
             )
             self.model.eval()
-            logger.info("Fine-tuned LLaMA loaded successfully (4-bit quantized).")
+            logger.info("Fine-tuned LLaMA (base + LoRA) loaded successfully.")
+
         except Exception as e:
             logger.error(f"Failed to load LLaMA model: {e}")
             self.tokenizer = None
