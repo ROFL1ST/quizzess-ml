@@ -18,7 +18,7 @@ class Settings:
     HF_TOKEN: str = os.getenv("HF_TOKEN", "")
 
     # Inference config
-    MAX_NEW_TOKENS: int = int(os.getenv("MAX_NEW_TOKENS", "256"))
+    MAX_NEW_TOKENS: int = int(os.getenv("MAX_NEW_TOKENS", "96"))
 
     # Security
     API_KEY: str = os.getenv("API_KEY", "default-secure-key")
