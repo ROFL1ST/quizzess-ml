@@ -25,16 +25,11 @@ def health_check():
         "sbert_loaded": grading_service.sbert_model is not None
     }
 
-# ---------------------------------------------------------
-# FEATURE 1: AUTOMATED ESSAY GRADING (RESEARCH CORE)
-# ---------------------------------------------------------
 @router.post("/grade-essay", dependencies=[Security(get_api_key)])
 def grade_essay(req: EssayGradingRequest):
     return grading_service.grade(req.teacher_key, req.student_answer)
 
-# ---------------------------------------------------------
-# FEATURE 2: ADAPTIVE QUIZ RECOMMENDATION (LEGACY)
-# ---------------------------------------------------------
+
 @router.post("/recommend", dependencies=[Security(get_api_key)])
 def recommend_question(data: RecommendationRequest):
     return recommender_service.recommend(data)
